@@ -18,7 +18,7 @@ def position_taken?(board, index)
   board[index] == " " || board[index] == "" || board[index] == nil
 end
 
-def valid_move?(board, index)
+def valid_move?(board, index, token)
   index.between?(0, 8) && position_taken?(board,index)
 end
 
