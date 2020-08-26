@@ -28,7 +28,7 @@ def turn(board)
   gets.strip
   input_to_index("X")
   if valid_move?(board, 0)
-    move(board,index, current_player = "X")
+    move(board, index, current_player = "X")
     turn(board)
   end
 end
