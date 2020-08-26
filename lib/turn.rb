@@ -28,6 +28,6 @@ def turn(board)
   gets.strip
   input_to_index("X")
   if valid_move?(board, 0)
-  else gets.strip = "1"
+  else turn(board)
   end
 end
