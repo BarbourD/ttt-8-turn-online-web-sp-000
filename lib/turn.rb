@@ -11,9 +11,6 @@ def input_to_index(input)
  input.to_i - 1
 end
 
-puts "Welcome to Tic Tac Toe."
-puts "Please choose a square, with 1 being the top left corner, and 9 being the bottom right corner."
-
 def position_taken?(board, index)
   board[index] == " " || board[index] == "" || board[index] == nil
 end
@@ -24,4 +21,8 @@ end
 
   def move(board, index, current_player = "X")
    board[index] = current_player
+end
+
+def turn(board)
+  puts "Please enter 1-9:"
 end
