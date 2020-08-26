@@ -29,5 +29,4 @@ def turn(board)
   input_to_index("X")
   valid_move?(board, 0)
   turn(board)
-  end
 end
