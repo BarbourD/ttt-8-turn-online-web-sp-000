@@ -24,5 +24,5 @@ end
 
   def move(board, index, token = X)
     board == ["O", " ", " ", " ", " ", " ", " ", " ", "X"]
-    
+
 end
